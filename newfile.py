@@ -57,6 +57,7 @@ def start(message):
     J = types.KeyboardButton("•  𝖣𝖾𝖫𝖾𝗍𝖾 𝖺𝖫𝖫 𝖠𝖼𝖼𝖮𝗎𝗇𝖳 •")
     K = types.KeyboardButton("• 𝖵𝗂𝖾𝖶 𝖺𝖫𝖫 𝖠𝖼𝖼𝖮𝗎𝗇𝖳 •")
     Z = types.KeyboardButton("/start")
+    marZ = types.KeyboardButton("/start")
     mar.add(A)
     mar.add(B,C)
     mar.add(D)
@@ -67,12 +68,12 @@ def start(message):
     mar.add(I,J)
     mar.add(K)
     mar.add(Z) 
-				if str(id) == own_id:
+    if str(id) == own_id:
     	bot.reply_to(message,text=f"- 𝖧𝖾𝖫𝖫𝗈 , {name}",parse_mode="markdown")
     	bot.reply_to(message,text=f"""- 𝖶𝖾𝖫𝖼𝗈𝖬𝖾 𝖳𝗈 𝖴𝗌𝖤𝗋𝗌 𝖥𝖫𝗈𝗈𝖣 𝖥𝗂𝗌𝗁𝗂𝖭𝗀 𝖢𝗁𝖾𝖼𝖪𝖾𝗋 
 - 𝖣𝖾𝗏𝖾𝖫𝗈𝖯𝖾𝗋 : ErrOr""",parse_mode="markdown",reply_markup=mar)
     if str(id) != own_id:
-    	bot.reply_to(message,text=f"""*-ʜᴀʟᴏ ᴋɪɴɢ*""",parse_mode="markdown",reply_markup=o)
+    	bot.reply_to(message,text=f"""*-ʜᴀʟᴏ ᴋɪɴɢ *""",parse_mode="markdown",reply_markup=o)
 @bot.message_handler(func=lambda m:True)
 def text(message):
  	acc = message.text
