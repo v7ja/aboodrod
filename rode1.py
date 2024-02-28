@@ -14,7 +14,7 @@ while True:
 		if session != "":
 			try:
 				if session != " ":
-					app = Client("ACC",api_id=24367955,api_hash="df9e7f5217331d03353a8d42e11419fc",session_string=session)
+					app = Client("ACC",api_id=18343125,api_hash="9abfb2413faed40faf67f27cd45006c7",session_string=session)
 					app.connect()
 					try:
 						app.set_username(o)
