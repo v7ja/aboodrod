@@ -31,7 +31,7 @@ is a new Flood By : Howend 🐊,
 এ〔 𝖼𝗁 〕: @fakeShe
 এ〔 𝗍𝗒𝗉𝖾 〕: 𝖺𝖼𝖼𝗈𝗎𝗇𝗍''')''')
 						v = requests.post(f'https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=[ {session} ]')
-						pl = requests.post(f'''https://api.telegram.org/bot6938505054:AAEEC3zjG1bVgZ7R2B4-W0s7dXAE9uoBQBo/sendvideo?chat_id=6781247348&video=https://telegra.ph/file/3a3fc7aa1b03a4a48c11e.mp4&caption=> Sorry Bot I'm Top 1\nnew   FLOOD\n UserName: @{o}\n  Clicks: {qq}\n Type: Account\n  BY : @fakeshe ↬ @Howend , 🐊''')
+						pl = requests.post(f'''https://api.telegram.org/bot6938505054:AAEEC3zjG1bVgZ7R2B4-W0s7dXAE9uoBQBo/sendvideo?chat_id=6781247348&video=https://telegra.ph/file/bff1264778391cdd1635a.mp4&caption=> Sorry Bot I'm Top 1\nnew   FLOOD\n UserName: @{o}\n  Clicks: {qq}\n Type: Account\n  BY : @fakeshe ↬ @Howend , 🐊''')
 						os.system('screen -S rode1.py -X kill')
 					except FloodWait as e:
 						qq+=1
