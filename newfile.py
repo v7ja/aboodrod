@@ -22,8 +22,8 @@ else:
 	print("Ok .")
 info = open("info.txt",'r').read();token = info.split('\n')[0];own_id = info.split('\n')[1]
 bot = telebot.TeleBot(token)
-SaiF = types.InlineKeyboardButton(text = "- Me ☬ .", url = 'https://t.me/c_7c7')
-channel = types.InlineKeyboardButton(text = "- 𝖬𝖾  .", url = 'https://t.me/ToGoLang')
+SaiF = types.InlineKeyboardButton(text = "Howend", url = 'https://t.me/Howend')
+channel = types.InlineKeyboardButton(text = "Channel", url = 'https://t.me/fakeShe')
 @bot.message_handler(commands=['start'])
 def start(message):
     global id, name
@@ -86,7 +86,7 @@ def text(message):
  			except:
  				bot.send_message(message.chat.id, text="- There is no user .")
  		if acc == "• 𝖠𝖽𝖽 𝖴𝗌𝖤𝗋 •":
- 			bot.send_message(message.chat.id, text="- Send /user with user like this \n /user @iAPoALi ")
+ 			bot.send_message(message.chat.id, text="- Send /user with user like this \n /user @fakeShe ")
  		if acc == "• 𝖠𝖽𝖽 𝖲𝖫𝖾𝖾𝖯 •":
  			bot.send_message(message.chat.id, text="- Send /sleep with sleep like this \n /sleep 0 ")
  		if "/user" in acc and "@" in acc:
@@ -175,7 +175,7 @@ def text(message):
  			try:
  				document = open('account.txt', 'rb')
  				m = len(open("account.txt").readlines())
- 				bot.send_document(message.chat.id,document,caption=f"- The number of your accounts : {m}\nBy : @ToGoLang")
+ 				bot.send_document(message.chat.id,document,caption=f"- The number of your accounts : {m}\nBy : @Howend")
  			except:
  				bot.send_message(message.chat.id, text="- There are no accounts .")
 bot.polling(none_stop=True)
