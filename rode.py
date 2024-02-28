@@ -17,7 +17,7 @@ while True:
 					app = Client("ACC",api_id=18343125,api_hash="9abfb2413faed40faf67f27cd45006c7",session_string=session)
 					app.connect()
 					try:
-						ch = app.create_channel(title="𝖽𝗈𝗇𝖾 𝖻𝗒 , 𝖺𝖻𝗈𝗈𝖽")
+						ch = app.create_channel(title="𝖽𝗈𝗇𝖾")
 						ch = ch.id
 						app.set_chat_username(ch, o)
 						app.update_profile(first_name="𝖢𝗅𝗂𝗆𝖾 𝖣𝗈𝗇𝖾 #1iraq", bio="𝖼𝗁 , @fakeShe | 𝖽𝖾𝗏 , @Howend")
